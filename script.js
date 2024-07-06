@@ -48,4 +48,9 @@ function calculateCalories(e) {
   const snacksCalories = getCaloriesFromInputs(snacksNumberInputs);
   const exerciseCalories = getCaloriesFromInputs(exerciseNumberInputs);
 
+  if(isError){
+    return
+
+  }
+
 }
